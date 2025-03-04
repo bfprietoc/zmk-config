@@ -6,7 +6,7 @@
 
     oled_display: oled_display@3c {
         compatible = "solomon,ssd1306";
-        reg = <0x3C>;
+        reg = <0x3D>;
         label = "OLED Display";
     };
 };
