@@ -4,9 +4,9 @@
     sda-pin = <17>;
     scl-pin = <20>;
 
-    oled_display: oled_display@3c {
+    oled_display: oled_display@3d {
         compatible = "solomon,ssd1306";
-        reg = <0x3C>;
+        reg = <0x3D>;
         label = "OLED Display";
     };
 };
