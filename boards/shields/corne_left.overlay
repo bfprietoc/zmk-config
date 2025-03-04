@@ -1,0 +1,12 @@
+&i2c1 {
+    status = "okay";
+    compatible = "nordic,nrf-twim";
+    sda-pin = <26>;
+    scl-pin = <27>;
+
+    oled_display: oled_display@3c {
+        compatible = "solomon,ssd1306";
+        reg = <0x3C>;
+        label = "OLED Display";
+    };
+};
